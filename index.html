@@ -10,14 +10,44 @@
     <style type="text/tailwindcss">
         @theme {
         --color-clifford: #da373d;
+        --color-clifford-dark: #b32d2e;
+        --color-clifford-light: #f44336;
+        --color-clifford-lighter: #ffebee;
+        --color-clifford-lightest: #fff9c4;
       }
+      
+      .bg-orange-500 {
+        background-color: #f97316;  
+      }
+      
+      .text-orange-500 {
+        color: #f97316;
+      }
+      
+      .text-orange-600 {
+        color: #f57c00;
+      }
+
     </style>
 
 </head>
 
 <body>
-    <h1>Welcome to Docker File System</h1>
+    <h1 class="bg-orange-500 text-orange-600 text-center text-3xl font-bold py-4 px-4">Docker File System</h1>
 
+    <div class="container mx-auto px-4 py-4">
+        <div class="flex flex-col md:flex-row">
+            <div class="flex-1 md:mr-4">
+                <div class="bg-orange-500 text-orange-600 text-center text-3xl font-bold py-4 px-4">Docker File System</div>
+                <div class="bg-orange-500 text-orange-600 text-center text-3xl font-bold py-4 px-4">Docker File System</div>
+            </div>
+            <div class="flex-1 md:ml-4">
+                <div class="bg-orange-500 text-orange-600 text-center text-3xl font-bold py-4 px-4">Docker File System</div>
+                <div class="bg-orange-500 text-orange-600 text-center text-3xl font-bold py-4 px-4">Docker File System</div>
+                <p class="bg-orange-500 text-orange-600 text-center text-3xl font-bold py-4 px-4">Docker File System</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
